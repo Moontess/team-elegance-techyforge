@@ -1,3 +1,62 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  background-color: #ffffff;
+  color: #333333;
+  font-family: 'Raleway', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.111rem;
+}
+
+#hero h1,
+#about h2,
+#featuredCollection h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+/* Hero Section Styling */
+#hero {
+  background-color: #333333;
+  color: #ffd700;
+  text-align: center;
+  padding: 2.7rem 1.25rem;
+  letter-spacing: 0.127rem;
+}
+
+#hero h1 {
+  font-weight: 700;
+  font-variant: small-caps;
+  font-size: 3rem;
+  margin-bottom: 0.625rem;
+}
+
+#hero p {
+  font-size: 1.3rem;
+}
+
+/* About Section Styling */
+#about h2 {
+  color: #000000;
+  margin-bottom: 1.25rem;
+}
+
+/* Collection Section Styling */
+#featuredCollection {
+  background-color: #f6f6f6;
+  margin: 1rem auto;
+  padding: 1.5rem 1.15rem;
+  text-align: center;
+}
+
+#featuredCollection p span {
+  color: #c3a502;
+  font-size: 1.15rem;
+}
